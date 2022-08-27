@@ -412,3 +412,108 @@
         margin: 67px 0 40px 0;
     }
 }
+
+.index4{
+    font-family: 'Helvetica Neue';
+    background-color: #4A4A4A;
+    .overlay{
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        max-width: 847px;
+        width: 100%;
+        height: 537px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        h4{
+            font-size: 25px;
+            margin-bottom: 79px;
+            color: #292929;
+            font-weight: 600;
+        }
+        .next-btn{
+            max-width: 297px;
+            width: 100%;
+            height: 60px;
+            background-color: #62A1EB;
+            border-radius: 8px;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 18px;
+            margin-bottom: 28px;
+            a{
+                color: #FFFFFF;
+            }
+            cursor: pointer;
+        }
+        a{
+            font-size: 20px;
+            color: #0089A7;
+        }
+    }
+}
+
+.header5{
+    font-family: 'Helvetica Neue';
+    img{
+        position: relative;
+        top: 53px;
+        left: 70px;
+    }
+    .title{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+}
+.laptop-list8{
+    font-family: 'Helvetica Neue';
+    max-width: 1176px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 97px auto 0 auto;
+    .child-list{
+        max-width: 563px;
+        width: 100%;
+        height: 205px;
+        background-color: #EAFAFF;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        border: 1px solid #AED1EA;
+        padding-left: 14px;
+        margin-bottom: 55px;
+        img{
+            margin-right: 28px;
+        }
+        h2,
+        p{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        p{
+            margin: 18px 0 28px 0;
+        }
+        a{
+            font-size: 16px;
+            color: #4386A9;
+            // font-weight: 700;
+        }
+        a:after{
+            content: "";
+            float: left;
+            max-width: 94px;
+            width:100%;
+            border: 1px solid #4386A9;
+        }
+    }
+}
