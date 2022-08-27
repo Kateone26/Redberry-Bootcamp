@@ -1,0 +1,236 @@
+// body{
+//     font-family: 'Helvetica Neue';
+// }
+
+// index.html
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 79px;
+    font-family: 'Helvetica Neue';
+    .redlogo{
+        width: 112px;
+        height: 18px;
+        margin-bottom: 85px;
+    }
+    .main-image{
+        max-width: 781px;
+        width: 100%;
+        margin-bottom: 123px;
+    }
+    .btn{
+        margin-bottom: 26px;
+        max-width: 383px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        background-color: #62A1EB;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+        a{
+            color: #FFFFFF;
+        }
+    }
+}
+// index2.html
+.index2{
+    background-color: #EBEBEB;
+    font-family: 'Helvetica Neue';
+    .workers-info-header{
+        // margin-bottom: 96px;
+        img{
+            position: relative;
+            top: 53px;
+            left: 70px;
+        }
+        .titles{
+            margin-top: 38px;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            .info-h{
+                margin-right: 66px;
+            }
+            .info2-h{
+                margin-left: 66px; 
+            }
+            .info-h:after {
+                content: "";
+                float: left;
+                background:#232323;
+                max-width: 185px;
+                width:100%;
+                border: 1px solid #000000;
+                border-radius: 3px;
+                margin: 15px 0 27px 15px;
+            }
+            .info2-h:after {
+                content: "";
+                float: left;
+                background:#232323;
+                max-width: 263px;
+                width:100%;
+                border: 1px solid #000000;
+                border-radius: 3px;
+                margin: 15px 0 27px 4px;
+            }
+        }
+    }
+    // form---------workers info
+    .workers-info-form{
+        max-width:1226px;
+        width: 100%;
+        height: 973px;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        border-radius: 18px;
+        .registration{
+            max-width: 878px;
+            width: 100%;
+            margin: 0 auto;
+            .form-name{
+                display: flex;
+                max-width: 878px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 407px;
+                    width: 100%;
+                    margin-top: 96px;
+                }
+            }
+            .mail-wrap,
+            .phone-wrap{
+                display: flex;
+                flex-direction: column;
+                max-width: 878px;
+                width: 100%;
+            }
+            .mail-wrap{
+                margin-top: 43px;
+            }
+            .phone-wrap{
+                margin-top: 40px;
+                span{
+                    margin-bottom: 95px;
+                }
+            }
+            input,
+            select{
+                outline: none;
+                border: none;
+                border-radius: 8px;
+                height: 60px;
+                border: 1.8px solid #8AC0E2;
+                padding-left: 16px;
+            }
+            label{
+                font-size: 18px;
+                margin-bottom: 8px
+            }
+            span{
+                font-size: 14px;
+                margin-top: 8px
+            };
+            select{
+               background-color: #EBEBEB; 
+               max-width: 878px;
+               width: 100%;
+               margin-top: 45px;
+            //    drop-down arrow s minda paddingi gavuwero marjvniv da ar shveba:
+            //    padding-right: 19px;
+            }
+            select:first-child{
+                font-size: 18px;
+                font-family: 'Helvetica Neue';
+            }
+            .next-btn{
+                max-width: 176px;
+                width: 100%;
+                height: 60px;
+                background-color: #62A1EB;
+                border-radius: 8px;
+                text-align: center;
+                padding-top: 18px;
+                a{
+                    color: #FFFFFF;
+                }
+                float: right;
+                cursor: pointer;
+            }
+        }
+    }
+    // 
+    // form---------laptop info
+    .laptop-info-form{
+        max-width:1226px;
+        width: 100%;
+        height: 1571px;
+        background-color: #FFFFFF;
+        margin: 0 auto;
+        border-radius: 18px;
+        padding-top: 68px;
+        .laptop-info-inside{
+            max-width:878px;
+            width: 100%;
+            background-color: #F6F6F6;
+            margin: 0 auto;
+            .image-upload{
+                max-width: 878px;
+                width: 100%;
+                height: 423px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // 
+                // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='18' ry='18' stroke='%23333' stroke-width='2' stroke-dasharray='10%2c10' stroke-dashoffset='54' stroke-linecap='square'/%3e%3c/svg%3e");
+                // 
+                border: 2px dashed #4386A9;
+                border-radius: 18px;
+                h3{
+                    color: #4386A9;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .upload{
+                    width: 233px;
+                    height: 60px;
+                    background-color: #62A1EB;
+                    color: #FFFFFF;
+                    text-align: center;
+                    padding-top: 18px;
+                    font-size: 20px;
+                    border-radius: 8px;
+                    margin-top: 65px;
+                    // cursor: pointer;
+                    input{
+                        opacity: 0;
+                        // cursor: pointer;
+                    }
+                }
+            }
+            .image-upload:first-child{
+                padding-top: 107px;
+            }
+        }
+    }
+
+
+
+
+    // 
+    .round-logo{
+        text-align: center;
+        margin: 67px 0 40px 0;
+    }
+}
