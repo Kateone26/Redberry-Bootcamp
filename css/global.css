@@ -199,11 +199,20 @@
   border-radius: 18px;
   padding-top: 68px;
 }
+.index2 .laptop-info-form input {
+  margin: 8px 0;
+  font-size: 16px;
+}
 .index2 .laptop-info-form .laptop-info-inside {
   max-width: 878px;
   width: 100%;
-  background-color: #F6F6F6;
   margin: 0 auto;
+}
+.index2 .laptop-info-form .laptop-info-inside label {
+  font-size: 18px;
+}
+.index2 .laptop-info-form .laptop-info-inside span {
+  font-size: 14px;
 }
 .index2 .laptop-info-form .laptop-info-inside .image-upload {
   max-width: 878px;
@@ -219,6 +228,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #F6F6F6;
+  margin-bottom: 50px;
   border: 2px dashed #4386A9;
   border-radius: 18px;
 }
@@ -243,6 +254,201 @@
 }
 .index2 .laptop-info-form .laptop-info-inside .image-upload:first-child {
   padding-top: 107px;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand {
+  font-family: "Helvetica Neue";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 878px;
+  width: 100%;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 52px;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 407px;
+  width: 100%;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand input,
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand select {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  padding-left: 16px;
+  font-family: "Helvetica Neue";
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand input {
+  border: 1.8px solid #8AC0E2;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-name-brand select {
+  background-color: #EBEBEB;
+}
+.index2 .laptop-info-form .laptop-info-inside .line-after-laptop-info {
+  width: 878px;
+  background-color: #C7C7C7;
+  border: 1px solid #C7C7C7;
+  margin-bottom: 42px;
+}
+.index2 .laptop-info-form .laptop-info-inside .CPU-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 41px;
+}
+.index2 .laptop-info-form .laptop-info-inside .CPU-info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 276px;
+  width: 100%;
+}
+.index2 .laptop-info-form .laptop-info-inside .CPU-info input,
+.index2 .laptop-info-form .laptop-info-inside .CPU-info select {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  padding-left: 16px;
+}
+.index2 .laptop-info-form .laptop-info-inside .CPU-info input {
+  border: 1.8px solid #8AC0E2;
+}
+.index2 .laptop-info-form .laptop-info-inside .CPU-info select {
+  background-color: #EBEBEB;
+  font-size: 18px;
+}
+.index2 .laptop-info-form .laptop-info-inside .RAM-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 44px;
+}
+.index2 .laptop-info-form .laptop-info-inside .RAM-info .RAM-info-fist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 407px;
+  width: 100%;
+  margin-right: 63px;
+}
+.index2 .laptop-info-form .laptop-info-inside .RAM-info .RAM-info-fist input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  border: 1.8px solid #8AC0E2;
+  padding-left: 16px;
+}
+.index2 .laptop-info-form .laptop-info-inside .RAM-info .RAM-info-second p {
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+.index2 .laptop-info-form .laptop-info-inside .RAM-info .RAM-info-second label {
+  font-size: 16px;
+  margin-right: 60px;
+}
+.index2 .laptop-info-form .laptop-info-inside .date-price {
+  font-family: "Helvetica Neue";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 878px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+.index2 .laptop-info-form .laptop-info-inside .date-price div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 407px;
+  width: 100%;
+}
+.index2 .laptop-info-form .laptop-info-inside .date-price div input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 60px;
+  border: 1.8px solid #8AC0E2;
+  padding-left: 16px;
+  height: 60px;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-condition {
+  margin-top: 75px;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-condition p {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+.index2 .laptop-info-form .laptop-info-inside .laptop-condition label {
+  font-size: 16px;
+  margin-right: 62px;
+}
+.index2 .laptop-info-form .laptop-info-inside .bottom-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 76px;
+}
+.index2 .laptop-info-form .laptop-info-inside .bottom-buttons a {
+  color: #62A1EB;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.index2 .laptop-info-form .laptop-info-inside .bottom-buttons .next-btn {
+  max-width: 176px;
+  width: 100%;
+  height: 60px;
+  background-color: #62A1EB;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 18px;
+  cursor: pointer;
+}
+.index2 .laptop-info-form .laptop-info-inside .bottom-buttons .next-btn a {
+  color: #FFFFFF;
 }
 .index2 .round-logo {
   text-align: center;

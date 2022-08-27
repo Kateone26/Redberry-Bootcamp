@@ -171,8 +171,14 @@
         }
     }
     // 
+    // index3.html
     // form---------laptop info
     .laptop-info-form{
+        input{
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        // font-family: 'Helvetica Neue';
         max-width:1226px;
         width: 100%;
         height: 1571px;
@@ -183,7 +189,14 @@
         .laptop-info-inside{
             max-width:878px;
             width: 100%;
-            background-color: #F6F6F6;
+            label{
+                font-size: 18px;
+            }
+            span{
+                font-size: 14px;
+            }
+            
+            
             margin: 0 auto;
             .image-upload{
                 max-width: 878px;
@@ -192,6 +205,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                background-color: #F6F6F6;
+                margin-bottom: 50px;
                 // 
                 // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='18' ry='18' stroke='%23333' stroke-width='2' stroke-dasharray='10%2c10' stroke-dashoffset='54' stroke-linecap='square'/%3e%3c/svg%3e");
                 // 
@@ -222,11 +237,174 @@
             .image-upload:first-child{
                 padding-top: 107px;
             }
+            .laptop-name-brand{
+                font-family: 'Helvetica Neue';
+                display: flex;
+                max-width: 878px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 52px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 407px;
+                    width: 100%;
+                }
+                input,
+                select{
+                outline: none;
+                border: none;
+                border-radius: 8px;
+                height: 60px;
+                // border: 1.8px solid #8AC0E2;
+                padding-left: 16px;
+                font-family: 'Helvetica Neue';
+                }
+                input{
+                    border: 1.8px solid #8AC0E2;
+                }
+                select{
+                    background-color: #EBEBEB;
+                }
+            }
+            .line-after-laptop-info{
+                width:878px;
+                background-color: #C7C7C7;
+                border: 1px solid #C7C7C7;
+                margin-bottom: 42px;
+            }
+            .CPU-info{
+                // max-width: 878px;
+                // width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 41px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 276px;
+                    width: 100%;                   
+                }
+                input,
+                select{
+                outline: none;
+                border: none;
+                border-radius: 8px;
+                height: 60px;
+                // border: 1.8px solid #8AC0E2;
+                padding-left: 16px;
+                }
+                input{
+                    border: 1.8px solid #8AC0E2;
+                }
+                select{
+                    background-color: #EBEBEB;
+                    font-size: 18px;
+                }
+
+
+            }
+            .RAM-info{
+                display: flex;
+                // align-items: center;
+                margin-bottom: 44px;
+                .RAM-info-fist{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 407px;
+                    width: 100%;
+                    margin-right: 63px;
+                    input{
+                        outline: none;
+                        border: none;
+                        border-radius: 8px;
+                        height: 60px;
+                        border: 1.8px solid #8AC0E2;
+                        padding-left: 16px;    
+                    }
+                }
+                .RAM-info-second{
+                    p{
+                        font-size: 18px;
+                        margin-bottom: 26px;
+                    }
+                    label{
+                        font-size: 16px;  
+                        margin-right: 60px;
+                    }
+                }
+            }
+            .date-price{
+                font-family: 'Helvetica Neue';
+                display: flex;
+                max-width: 878px;
+                width: 100%;
+                justify-content: space-between;
+                // align-items: center;
+                margin-top: 50px;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 407px;
+                    width: 100%;
+                    input{
+                        outline: none;
+                        border: none;
+                        border-radius: 8px;
+                        height: 60px;
+                        border: 1.8px solid #8AC0E2;
+                        padding-left: 16px;  
+                        height: 60px;  
+                        
+                    }
+                }
+            }
+            .laptop-condition{
+                margin-top: 75px;
+                p{
+                    font-size: 18px;
+                    margin-bottom: 28px;
+                }
+                label{
+                    font-size: 16px;  
+                    margin-right: 62px;
+                }
+            }
+            .bottom-buttons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 76px;
+                a{
+                    color: #62A1EB;
+                    font-size: 18px;
+                    align-items: center;
+                }
+                .next-btn{
+                    max-width: 176px;
+                    width: 100%;
+                    height: 60px;
+                    background-color: #62A1EB;
+                    border-radius: 8px;
+                    text-align: center;
+                    padding-top: 18px;
+                    a{
+                        color: #FFFFFF;
+                    }
+                    // float: right;
+                    cursor: pointer;
+                }
+
+            }
+            
         }
     }
 
 
-
+    
 
     // 
     .round-logo{
