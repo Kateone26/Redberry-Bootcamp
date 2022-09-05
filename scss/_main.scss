@@ -19,6 +19,18 @@
         width: 100%;
         margin-bottom: 123px;
     }
+    .main-image-2{
+        display: none;
+    }
+    @media(max-width: 391px){
+        .main-image-2{
+            display: block;
+            margin-bottom: 122px;
+        }
+        .main-image{
+            display: none;
+        }
+    }
     .btn{
         margin-bottom: 26px;
         max-width: 383px;
@@ -41,6 +53,7 @@
 .index2{
     background-color: #EBEBEB;
     font-family: 'Helvetica Neue';
+    
     .workers-info-header{
         // margin-bottom: 96px;
         img{
@@ -94,6 +107,26 @@
             max-width: 878px;
             width: 100%;
             margin: 0 auto;
+
+            .input-control.error input {
+                border-color: #E52F2F;
+            }
+            
+            .input-control.error label {
+                color: #E52F2F;
+            }
+            .input-control.error {
+                color: #E52F2F;
+
+            }
+
+            .input-control.error select {
+                border-color: #E52F2F;
+            }
+
+
+
+
             .form-name{
                 display: flex;
                 max-width: 878px;
@@ -141,7 +174,7 @@
             span{
                 font-size: 14px;
                 margin-top: 8px
-            };
+            }
             select{
                background-color: #EBEBEB; 
                max-width: 878px;
@@ -413,6 +446,13 @@
     }
 }
 
+@media(max-width: 391px){
+    .form-name{
+        flex-wrap: wrap;
+    }
+    
+}
+
 .index4{
     font-family: 'Helvetica Neue';
     background-color: #4A4A4A;
@@ -460,6 +500,7 @@
 
 .header5{
     font-family: 'Helvetica Neue';
+    margin-bottom: 84px;
     img{
         position: relative;
         top: 53px;
@@ -515,5 +556,108 @@
             width:100%;
             border: 1px solid #4386A9;
         }
+    }
+}
+// html6
+// laptop details
+
+.laptop-details{
+    font-family: 'Helvetica Neue';
+    max-width: 1178px;
+    width: 100%;
+    margin: 0 auto;
+    .details-upper{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            margin-right: 68px;
+        }
+        .upper-second{
+            display: flex;
+            font-size: 22px;
+            align-items: center;
+            .upper-right{
+                color:#797979;
+                margin-left:80px;
+            }
+        }
+    }
+
+    .line-after-laptop-info{
+        width:1178px;
+        height: 0px;
+        background-color: #A5A5A5;
+        border: 1px solid #A5A5A5;
+        margin-bottom: 42px;
+    }
+    .middle-first{
+        margin-right: 200px;
+        .middle-left{
+            margin-right: 100px;
+        }
+
+    }
+    .middle-second{
+        .middle-left2{
+            margin-right: 45px;
+        }
+    }
+    .lower-first{
+        margin-right: 250px;
+        .lower-left{
+            margin-right: 25px;
+        }
+    }
+    .lower-left2{
+        margin-right: 20px;
+    }
+
+    p{
+        font-size: 22px;
+        color: #2E2E2E;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    h5{
+        font-size: 22px;
+        color:#797979;
+        margin-bottom: 25px;
+    }
+    .flex-mother{
+        display: flex;
+        flex-wrap: wrap;
+        .flex-child{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .inde6-line1{
+        margin: 84px 0 54px 0;
+    }
+    .inde6-line2{
+        margin: 27px 0 54px 0;
+    }
+}
+
+// .error-text{
+//     color:red;
+//     display: block;
+//     font-size: 11px;
+// }
+.hide-reg-1{
+    display: none;
+}
+.laptop-info-form{
+    // display: none;
+}
+
+.active-error{
+    div{
+        color: red;
+        
+    }
+    input{
+        border-color: red;
     }
 }
