@@ -20,7 +20,10 @@
     </div>
 
     <div class="laptop-info-form">
-        <div class="laptop-info-inside">
+
+        <!-- <form action="/" method="POST" id="registration" class="registration"></form> -->
+        
+        <form action="/" method="POST" class="laptop-info-inside">
             <div class="image-upload">
                 <h3>ჩააგდე ან ატვირთე</h3><br>
                 <h3>ლეპტოპის ფოტო</h3>
@@ -38,10 +41,7 @@
                 </div>
                 <div>
                     <select id="brand" name="brand">
-                        <option value="#">ლეპტოპის ბრენდი</option>
-                        <option value="#">#</option>
-                        <option value="#">#</option>
-                        <option value="#">#</option>
+                        <option value="" disabled selected hidden>ლეპტოპის ბრენდი</option>
                     </select>
                 </div>
             </div>
@@ -51,10 +51,7 @@
             <div class="CPU-info">
                 <div>
                     <select id="cpu" name="cpu">
-                        <option value="#">CPU</option>
-                        <option value="#">#</option>
-                        <option value="#">#</option>
-                        <option value="#">#</option>
+                        <option value="" disabled selected hidden>CPU</option>
                     </select>
                 </div>
 
@@ -127,7 +124,7 @@
             </div>
 
             
-        </div>
+        </form>
 
     </div>
     
@@ -139,6 +136,6 @@
 
     
 
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
 </body>
 </html>
